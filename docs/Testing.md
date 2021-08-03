@@ -53,7 +53,7 @@ You'd register this handler in a separate step:
 (re-frame.core/reg-event-db     ;; this is a "-db" event handler, not "-fx"
   :select-triangle
   [some-interceptors]
-  select-triangle)    ;; <--- defn above. don't use an annonomous fn
+  select-triangle)    ;; <--- defn above. don't use an anonymous fn
 ```
 
 This arrangement means the event handler function
